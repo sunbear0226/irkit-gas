@@ -1,0 +1,6 @@
+{
+    "sheet_id": "<your google spread sheet id>",
+    "post_url": "https://api.getirkit.com/1/messages",
+    "clientkey": "<your irkit clientkey>",
+    "deviceid": "<your irkit deviceid>"
+}
