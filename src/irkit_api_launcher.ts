@@ -18,7 +18,6 @@ export class IRKitAPILauncher {
   }
   sendMessage(message: string): any {
     const options = this.getOptions(this.getPayload(message));
-    console.log(options);
     return UrlFetchApp.fetch(Config.POST_URL, options);
   }
 }
