@@ -11,6 +11,6 @@ export class SheetService {
     const values: string[][] = sheet
       .getRange(2, 1, sheet.getLastRow(), sheet.getLastColumn())
       .getValues();
-    return values.filter(v => v.indexOf(word, 2) !== -1)[0][0];
+    return values.filter(v => v.indexOf(word, 2) !== -1)[0][1];
   }
 }
